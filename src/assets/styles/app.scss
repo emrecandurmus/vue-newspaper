@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @import "~meyer-reset-scss/reset.scss";
 
+@import "_base/colors";
 @import "_base/base";
+@import "_base/typography";
+@import "_base/helpers";
+
+@import "atom/logo";
+@import "atom/form-elements/input";
+
+@import "template/layout";

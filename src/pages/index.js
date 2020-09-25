@@ -1,4 +1,3 @@
-import Login from './Login'
-import Register from './Register'
+import Login from "../pages/Login"
 
-export {Login, Register}
+export {Login}

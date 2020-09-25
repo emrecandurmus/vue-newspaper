@@ -8,9 +8,9 @@
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
-        "ant-design-vue": "^1.6.5",
         "core-js": "^3.6.5",
         "css-loader": "^4.2.2",
+        "element-ui": "^2.13.2",
         "meyer-reset-scss": "^2.0.4",
         "node-sass": "^4.14.1",
         "sass-loader": "^10.0.2",
@@ -23,6 +23,7 @@
         "@vue/cli-plugin-eslint": "~4.5.0",
         "@vue/cli-service": "~4.5.0",
         "babel-eslint": "^10.1.0",
+        "babel-plugin-component": "^1.1.1",
         "eslint": "^6.7.2",
         "eslint-plugin-vue": "^6.2.2",
         "stylelint": "^13.7.0",
@@ -42,6 +43,11 @@
             "parser": "babel-eslint"
         },
         "rules": {}
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
     },
     "browserslist": [
         "> 1%",

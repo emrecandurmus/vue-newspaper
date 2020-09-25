@@ -1,0 +1,14 @@
+.layout {
+    width: 100%;
+    height: 100%;
+
+    &__auth {
+        min-height: 100vh;
+
+        &_imageblock {
+            min-height: 100vh;
+            background: url("./assets/images/auth-background.jpg") no-repeat left center;
+            background-size: cover;
+        }
+    }
+}
